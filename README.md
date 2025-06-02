@@ -1,83 +1,177 @@
+🌌 Game Title: LightBorne: The Echo of Flame
+Genre: Text Adventure | Fantasy | Morality-Based Quest
+🌠 THE CORE STORY (YOUR STORY, TRANSFORMED INTO MYTH)
+In the once-luminous kingdom of Elyndor, a boy was born under a radiant sky—promised to be the protector of light. But darkness crept in, seeded by greed, betrayal, and silence. The boy, cast aside, abused, and unbelieved, carried pain in silence while the kingdom fell to shadow.
 
-# 🌟 LightBorne: The Echo of Flame
+That boy is you.
+You awaken in the shattered world, stripped of hope, but not of purpose. The Flame still lives inside you.
 
-LightBorne is a non-linear, morality-driven text adventure game written in Java.  
-You play as the **LightBorne**, the last spark of a fallen kingdom, destined to restore the flame of Elyndor.
+You are now the LightBorne — the last vessel of Elyndor’s spark. You must traverse six deadly realms, solve ancient riddles, answer impossible moral questions, and recover lost Artifacts of Light, each tied to your soul and integrity. These artifacts, when united, can restore the altar of flame... or doom it to eternal darkness.
 
----
+🧭 GAME STRUCTURE & FLOW
+The game consists of 6 primary realms, each with:
 
-## 🎮 How to Play
+Narration: Describes environment and lore.
 
-1. **Start with**:
-   - 3 Lives
-   - 100 Points
+Moral Dilemma: A hard ethical question that determines if the artifact is earned.
 
-2. **Traverse 6 Realms**:
-   - Each realm contains:
-     - A rich backstory
-     - A moral dilemma (to earn an Artifact)
-     - A riddle or puzzle
-     - Optional mini-boss battles
-     - Secret relics based on timing
+Realm Challenge: A riddle or puzzle to continue.
 
-3. **Artifacts**:
-   - Collect up to 6 unique artifacts
-   - The more artifacts you have, the higher your chances of defeating the final boss
+Mini-boss (optional): Optional encounter with risk/reward.
 
-4. **Dynamic Gameplay**:
-   - Moral choices and outcomes are randomized
-   - Riddles and challenges change every playthrough
-   - You can skip or revisit realms
+Secret Room (if quick enough): Grants powers like flame or shield.
 
-5. **Endings**:
-   - Victory unlocks a poem and full restoration of light
-   - Failure leads to a haunting message as darkness claims the world
+Dynamic Outcomes: Based on artifact count, choices, randomness.
 
----
+✨ Non-linear Design
+Each playthrough randomizes riddle outcomes, moral questions, and artifact availability.
 
-## 🧭 Controls
+Players can revisit past realms if they lack artifacts before the final boss.
 
-- Text input based
-- Answer prompts with:
-  - `yes` / `no`
-  - Riddle answers
-  - Moral dilemma choices
+Optional events (boss fights, bonus trials) can be skipped or faced.
 
----
+🌍 REALMS OVERVIEW
+🌲 Realm 1: Whispering Woods
+Narration: A silent forest where trees remember lost names.
 
-## 🛠️ Requirements
+Moral Artifact: "Would you sacrifice your memories to save someone else’s pain?"
 
-- Java 8 or later
-- Recommended: [VS Code with Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+Challenge: Riddle about "echo"
 
----
+Relic Room: Reach quickly and you find Flame of Courage
 
-## ▶️ How to Run
+Mini-Boss: Optional battle with Forest Shade
 
-### Using VS Code
-1. Open `LightBorne.java`
-2. Click the green ▶️ button next to the `main()` method
-3. Or press `Ctrl+Shift+P` → `Java: Run Java File`
+🕳️ Realm 2: Cavern of Echoes
+Narration: A black void where whispers impersonate loved ones.
 
-### Using Terminal
-```bash
-javac LightBorne.java
-java LightBorne
-```
+Moral Artifact: "Would you forgive someone who destroyed your family?"
 
----
+Challenge: Trust vs fear (follow voice?)
 
-## ✨ Inspiration
+Relic Room: Hidden if silence is chosen
 
-This game is a symbolic narrative inspired by:
-- **Overcoming abuse and rejection**
-- **Fighting for self-worth**
-- **Restoring light where the world forgot your name**
+Mini-Boss: Optional echo beast
 
-You **are** the LightBorne.
+🌉 Realm 3: Bridge of Trials
+Narration: A bridge suspended by truth. Every lie weakens it.
 
----
+Moral Artifact: "Is betraying one person justified to save many?"
 
-## 📜 License
+Challenge: Classic “4-2-3 legs” riddle
 
-This game is free to modify and expand for educational and creative use.
+Mini-Challenge: Pull a lever for a possible life gain
+
+Mini-Boss: Optional Shadow Duelist
+
+🌫️ Realm 4: Vale of Shadows
+Narration: Fog and regret surround you. Memories haunt the mist.
+
+Moral Artifact: "Would you erase your own trauma if it meant erasing the good it taught you?"
+
+Challenge: Riddle about footsteps
+
+Secret Room: Fast answers unlock Relic of Time
+
+Mini-Boss: Wraith of the Vale
+
+💎 Realm 5: Crystal Labyrinth
+Narration: A maze where decisions reflect your soul. Crystals trap hesitation.
+
+Moral Artifact: "Would you give your dream to help a stranger reach theirs?"
+
+Challenge: Puzzle involving switches and bulbs
+
+Mini-Boss: Crystal Sentience
+
+🔥 Realm 6: Altar of Reckoning
+Narration: You face the Guardian of Flame, keeper of balance.
+
+Battle Mechanics:
+
+If you collected 0–1 artifacts, you can go back or face a hard boss battle.
+
+If you collected 2–3, the fight is winnable but risky.
+
+If you collected 4–5, you gain damage bonuses.
+
+If you have all 6, you unlock a secret Light Channeling move.
+
+Final choice: Fight or speak? Your actions, points, and relics all affect outcome.
+
+🧠 MORAL QUESTIONS (EXAMPLES)
+Each realm’s artifact is unlocked only by answering one of the following hard moral dilemmas:
+
+“Would you endure lifelong pain to prevent one moment of someone else's death?”
+
+“Is mercy a weakness or a strength when faced with betrayal?”
+
+“If the truth will break someone you love, is it better to lie?”
+
+All choices are stored to change the world state and increase replayability.
+
+⚔️ BATTLE & POINT SYSTEM
+3 Lives at start
+
+Points earned via riddles, fights, and timing
+
+Artifacts = Boss Buffs
+
+Flame Relic: Instant-kill option in mini-boss
+
+Time Relic: Shield one attack
+
+Insight: Grants score and knowledge in riddle rooms
+
+🌈 OUTCOMES & ENDINGS
+🎉 If You Win:
+"From shadow's maw to sun’s embrace,
+Your courage lit our darkest place.
+Elyndor sings your name in light—
+Forevermore, you end the night."
+
+The world rejoices
+
+Your final score is shown
+
+Artifacts glow around you
+
+☠️ If You Lose:
+"No flame rose. No light returned.
+The world forgets your name.
+Only the wind mourns LightBorne."
+
+You are erased from memory
+
+A darkened altar image is shown
+
+You're invited to replay—with new variables
+
+🔁 Replayability Features
+Riddles and outcomes are randomized
+
+Moral questions rotate
+
+Paths may branch differently each run
+
+Relic locations and boss responses change
+
+Optional events appear only sometimes
+
+Final boss stats depend on your full journey
+
+🛠️ How It Works Behind the Scenes
+The Game class tracks player lives, points, relics, and choices
+
+Each realm is a separate method with storytelling, riddles, and artifact logic
+
+Decisions alter game variables
+
+Boss battle difficulty scales with artifacts.length
+
+You’re prompted if you want to skip optional trials or go back for artifacts
+
+ASCII visuals show each environment uniquely
+
+Final poem and ending screen respond dynamically
+
