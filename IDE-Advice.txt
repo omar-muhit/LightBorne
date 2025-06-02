@@ -1,0 +1,7 @@
+If you want two students to be able to access the same code file at the same time you could try GitHub Codespaces with the Live Share plugin. 
+It's based on VS Code which is one of the most popular code editors. 
+Free accounts get 120 core hours of usage per month and verified students get 180 core hours per month completely free - 
+even the free tier should be easily enough for classes (it would allow you to run your code on an 2 core machine for 60 hours every month) 
+but the student pack is worth it anyway as it's completely free and gives your students access to lots of other niceties like Copilot and JetBrains IDEs.
+
+If you're just wanting to put your sample code somewhere the students can copy and paste from, you could set up a repo on GitHub or give the students a link to a GitHub Gist.
