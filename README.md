@@ -1,74 +1,83 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/SnKylGCq)
 
+# 🌟 LightBorne: The Echo of Flame
 
-**Java Adventure Game Project: Code Quest**
+LightBorne is a non-linear, morality-driven text adventure game written in Java.  
+You play as the **LightBorne**, the last spark of a fallen kingdom, destined to restore the flame of Elyndor.
 
-**Project Overview**
-You will design and implement a Java-based text adventure game. The game should be interactive,
-story-driven, and include game mechanics such as lives, points, level progression, decision trees,
-and ASCII art to enhance visual storytelling.
-Project Requirements
+---
 
-**Game Mechanics**
-- Players start with 3 lives.
-- Wrong decisions or incorrect answers cause a life to be lost.
-- Players earn points for correct answers and good decisions.
-- The game ends when the player runs out of lives.
-- Some decisions or questions can grant an extra life.
-- Include at least 3 distinct stages or levels.
-- Choices should lead the player through different story paths.
+## 🎮 How to Play
 
-**Interactivity**
-- Use Scanner to read user input.
-- Include at least 5 decision points that affect game outcome.
-- Include at least 3 questions or riddles.
+1. **Start with**:
+   - 3 Lives
+   - 100 Points
 
-**ASCII Artwork**
-- Include ASCII art in at least 5 scenes.
-- ASCII art must be relevant and enhance the visual narrative.
+2. **Traverse 6 Realms**:
+   - Each realm contains:
+     - A rich backstory
+     - A moral dilemma (to earn an Artifact)
+     - A riddle or puzzle
+     - Optional mini-boss battles
+     - Secret relics based on timing
 
-**Programming Requirements**
-- Use if/else, switch, or other conditional logic.
-- Organize code with methods.
-- Use loops where appropriate.
-- Track lives, points, and stage with variables.
+3. **Artifacts**:
+   - Collect up to 6 unique artifacts
+   - The more artifacts you have, the higher your chances of defeating the final boss
 
-**Submission Instructions**
+4. **Dynamic Gameplay**:
+   - Moral choices and outcomes are randomized
+   - Riddles and challenges change every playthrough
+   - You can skip or revisit realms
 
-Submit the following:
-- .java source file
-- A brief README.txt explaining how to play, how scoring/lives work, and any known issues
-- Optional: ASCII art sources or tools used
+5. **Endings**:
+   - Victory unlocks a poem and full restoration of light
+   - Failure leads to a haunting message as darkness claims the world
 
-**Grading Rubric (Total: 100 points)**
+---
 
-**Game Functionality**
-- Game starts, takes input, and ends correctly (10 pts)
-- Tracks and updates lives correctly (10 pts)
-- Tracks and updates points correctly (10 pts)
-- Level or stage system implemented (10 pts)
-- Bonus lives or hidden rewards included (5 pts)
-Total = 45
+## 🧭 Controls
 
-**Game Design & Creativity**
-- Story is engaging and original (10 pts)
-- At least 5 unique decision points (10 pts)
-- Includes at least 3 riddles/challenges (10 pts)
-Total = 30
+- Text input based
+- Answer prompts with:
+  - `yes` / `no`
+  - Riddle answers
+  - Moral dilemma choices
 
-**ASCII Art & Presentation**
-- At least 3 scenes include ASCII art (10 pts)
-- Art enhances game immersion (5 pts)
-Total = 15
+---
 
-**Code Quality**
-- Code is well-organized and uses methods (5 pts)
-- No major syntax or logic errors (5 pts)
-Total = 10
+## 🛠️ Requirements
 
-- - - **Total = 100 Points** - - -
-    - 
-**Bonus Suggestions (Optional)**
-- Add a save/load system.
-- Let the player choose a character or class.
-- Implement a random encounter or inventory system.
+- Java 8 or later
+- Recommended: [VS Code with Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+
+---
+
+## ▶️ How to Run
+
+### Using VS Code
+1. Open `LightBorne.java`
+2. Click the green ▶️ button next to the `main()` method
+3. Or press `Ctrl+Shift+P` → `Java: Run Java File`
+
+### Using Terminal
+```bash
+javac LightBorne.java
+java LightBorne
+```
+
+---
+
+## ✨ Inspiration
+
+This game is a symbolic narrative inspired by:
+- **Overcoming abuse and rejection**
+- **Fighting for self-worth**
+- **Restoring light where the world forgot your name**
+
+You **are** the LightBorne.
+
+---
+
+## 📜 License
+
+This game is free to modify and expand for educational and creative use.
